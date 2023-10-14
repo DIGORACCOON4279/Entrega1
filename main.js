@@ -1,7 +1,7 @@
 
 
-// Observacion: Cree dos codigos para la consigna uno para "Iniciar sesion" y otro para "Crear la Cuenta de suario":
-// -Ambos estan con comentario se puede descomentar el "Sign In" y luego el "Create Account"
+// Observacion: Cree dos codigos para la consigna uno para "Iniciar sesion" y otro para "Crear la Cuenta de usuario":
+// -Ambos estan con comentario se puede descomentar el "Sign In" y luego el "Create Account".
 
 
 /**************** Iniciar Sesion*************************** */
@@ -10,88 +10,88 @@
 // Form "Sign in"
 
 
-// function iniciarSesion() {
-//     let email = prompt("Ingrese su correo electrónico:");
+// function signIn() {
+//     let email = prompt("Enter your email address:");
 
 //     while (email.indexOf('@') === -1 || email.indexOf('.com') === -1) {
-//         alert("Correo electrónico incorrecto. Asegúrate de incluir '@' y '.com'.");
-//         email = prompt("Ingrese su correo electrónico:");
+//         alert("Incorrect email. Make sure to include '@' and '.com'.");
+//         email = prompt("IEnter your email address:");
 //     }
 
-//     let password = prompt("Ingrese su contraseña (6 números):");
+//     let password = prompt("Enter your password:(6 numbers):");
 
 //     while (isNaN(password) || password.length !== 6) {
-//         alert("Contraseña incorrecta. Asegúrese de ingresar 6 números.");
-//         password = prompt("Ingrese su contraseña (6 números):");
+//         alert("Incorrect password. Make sure to enter 6 numbers.");
+//         password = prompt("Enter your password (6 numbers):");
 //     }
 
-//     alert("¡Bienvenido! Ha iniciado sesión con éxito.");
+//     alert("Welcome! You have successfully logged in.");
 // }
 
-// iniciarSesion();
+// signIn();
 
 
 /**************** Crear Cuenta *************************** */
 
 // Form "Create Account"
 
-// function validarCorreo(email) {
+// function validateEmail(email) {
 //     return email.includes("@") && email.includes(".com");
 // }
 
-// function validarContrasena(password) {
+// function validatePassword(password) {
 //     return password.length === 6 && !isNaN(password);
 // }
 
-// function contieneSoloLetras(texto) {
-//     for (var i = 0; i < texto.length; i++) {
-//         var caracter = texto[i].toLowerCase();
-//         if (caracter < 'a' || caracter > 'z') {
+// function containsOnlyLetters(text) {
+//     for (let i = 0; i < text.length; i++) {
+//         let character = text[i].toLowerCase();
+//         if (character < 'a' || character > 'z') {
 //             return false;
 //         }
 //     }
 //     return true;
 // }
 
-// function crearCuenta() {
-//     var nombre;
-//     var apellido;
-//     var email;
-//     var password;
+// function createAccount() {
+//     let name;
+//     let lastName;
+//     let email;
+//     let password;
 
 //     do {
-//         nombre = prompt("Ingrese su nombre:");
+//         name = prompt("Enter your name:");
 
-//         if (!contieneSoloLetras(nombre)) {
-//             alert("Nombre no válido. Debe contener solo letras.");
+//         if (!containsOnlyLetters(name)) {
+//             alert("Invalid name. It must contain only letters.");
 //         }
-//     } while (!contieneSoloLetras(nombre));
+//     } while (!containsOnlyLetters(name));
 
 //     do {
-//         apellido = prompt("Ingrese su apellido:");
+//         lastName = prompt("Enter your last name:");
 
-//         if (!contieneSoloLetras(apellido)) {
-//             alert("Apellido no válido. Debe contener solo letras.");
+//         if (!containsOnlyLetters(lastName)) {
+//             alert("Invalid last name. It must contain only letters.");
 //         }
-//     } while (!contieneSoloLetras(apellido));
+//     } while (!containsOnlyLetters(lastName));
 
 //     do {
-//         email = prompt("Ingrese su correo electrónico:");
+//         email = prompt("Enter your email address:");
 
-//         if (!validarCorreo(email)) {
-//             alert("Correo electrónico no válido. Debe contener '@' y '.com'.");
+//         if (!validateEmail(email)) {
+//             alert("Email is not valid. It must contain '@' and '.com'.");
 //         }
-//     } while (!validarCorreo(email));
+//     } while (!validateEmail(email));
 
 //     do {
-//         password = prompt("Ingrese su contraseña (6 números):");
+//         password = prompt("Enter your password (6 numbers):");
 
-//         if (!validarContrasena(password)) {
-//             alert("Contraseña no válida. Debe contener exactamente 6 números.");
+//         if (!validatePassword(password)) {
+//             alert("Invalid password. It must contain exactly 6 numbers..");
 //         }
-//     } while (!validarContrasena(password));
+//     } while (!validatePassword(password));
 
-//     alert("¡Cuenta de usuario creada con éxito. Bienvenido!!! \n\nNombre: " + nombre + " " + apellido + "\nCorreo electrónico: " + email);
+//     alert("¡User account created successfully. Welcome!!! \n\nName: " + name + " " + lastName + "\nEmail: " + email);
 // }
 
-// crearCuenta();
+// createAccount();
