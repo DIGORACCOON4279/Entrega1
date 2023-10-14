@@ -47,7 +47,7 @@ En los formularios "Sign in" & "Create Account", se realizo con JS el simulador,
 
 Pero quedan faltando para proximas consignas activar el dark mode, el cart(checkout & orden de compra) & favoritos. Tambien ajustes en las interfaces Store y page Error 404, como tambien su adaptacion a pantallas cellphone y tablet</br>
 
-NOTA: Observar el archivo main.js hay dos ejercicios de la consigna el sign in quedo comenatdo pero funciona y el create account funciona en las github pages.</br>
+NOTA: Observar el archivo main.js hay dos ejercicios de la consigna el "Sign in" quedo comentado pero funciona y el "Create Account" funciona en las github pages.</br>
 
 ![color_Github](https://github.com/DIGORACCOON4279/Entrega1/assets/88150970/65187d3e-8a95-46f3-9b4d-9f2981227c33)
 [Github Pages](https://digoraccoon4279.github.io/Entrega1/)</br>
