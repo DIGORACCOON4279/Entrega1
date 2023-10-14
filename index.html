@@ -2,13 +2,627 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home | Break a Leg</title>
+    <!-- Google fonts Jura & Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg" href="img/skullLogo.svg" sizes="16x16"/>
+    <link rel="icon" type="image/svg" href="img/skullLogo.svg" sizes="32x32"/>
+    <link rel="icon" type="image/svg" href="img/skullLogo.svg" sizes="64x64"/>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Hoja de estilos -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- Normalize -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel='stylesheet'>
+    <!-- Meta para SEO -->
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content="Diego Marin Mora & Break a Leg Company"/>
+    <meta name="copyright" content="© [2023] [Diego Marin Mora & Break a Leg Company]"/>
 </head>
 <body>
-    <h1 class="title">Break a Leg</h1>
 
-<script src="main.js"></script>
+    <!-- Header -->
+
+    <header class="header">
+        <input id="menuSide" type="checkbox">
+        <label for="menuSide">
+            <img class="drawerIcon" src="img/menu_Icon.svg" alt="Menu icon">
+        </label>
+        <a class="logo" href="index.html">
+            <img class="brand" src="img/skullLogo.svg" alt="Break a Leg brand">
+        </a>
+        <section class="menuIcons">
+            <ul>
+                <li><a href="#"><img class="icon iconMoon" src="img/moon_Icon.svg" alt=""></a></li>
+                <li><a href="views/sign_In.html"><img class="icon" src="img/user_Icon.svg" alt=""></a></li>
+                <li><a href="#"><img class="icon" src="img/whishlist_White_Icon.svg" alt=""></a></li>
+                <li><a href="#"><img class="icon" src="img/empty_Shopping_Cart.svg" alt=""></a></li>
+            </ul>
+        </section>
+        <nav class="menuSide">
+            <section class="top">
+                <img class="brand" src="img/skullLogo.svg" alt="Break a Leg brand">
+                <label for="menuSide">
+                    <img class="close" src="../img/close_Cross_White.svg" alt="Close icon">
+                </label>
+            </section>
+            <section class="menu">
+                <ul>
+                    <li><a href="views/sign_In.html" class="link">Sign in</a></li>
+                    <li><a href="#" class="link">My cart</a></li>
+                    <li><a href="index.html" class="link">Home</a></li>
+                    <li><a href="views/store.html" class="link">Store</a></li>
+                    <li><a href="index.html#giftCards" class="link">Gift cards</a></li>
+                </ul>
+            </section>
+            <section class="contactUs">
+                <p>Contact us...</p>
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank" class="item"><img src="img/instagram.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank" class="item"><img src="img/youtube.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" class="item"><img src="img/facebook.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank" class="item"><img src="img/twitter.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://co.pinterest.com/" target="_blank" class="item"><img src="img/pinterest.svg" alt="" class="itemSocial"></a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Main -->
+
+    <main class="mainContainer">
+
+        <!-- Hero Section -->
+
+        <section class="heroSection" id="heroSection">
+            <div class="heroSectionCentered">
+                <article class="info">
+                    <h1 class="break">Break a Leg</h1>
+                    <h2 class="subtitle">¡Where your passion is just beginning!</h2>
+                    <div class="cta">
+                        <a class="ctaDiscount" href="index.html#getOff">Discount</a>
+                        <a class="ctaNewArrivals" href="index.html#newArrivals" >New Arrivals</a>
+                    </div>
+                </article>
+            </div>
+            <img src="img/laptop1.webp" alt="Laptop Image" class="laptop">
+        </section>
+
+        <!-- <section class="heroSection">
+            <article class="info">
+                <h1 class="break">Break a Leg</h1>
+                <h2 class="sentence">Where your passion is just beginning!</h2>
+                <div class="cta">
+                    <a href="" class="ctaDiscount">Discount</a>
+                    <a href="" class="newArrivals">New arrivals</a>
+                </div>
+            </article>
+            <img src="img/laptop1.webp" alt="Laptop Image" class="laptop">
+        </section> -->
+
+        <!-- ArrowUp -->
+
+        <section class="arrowUp">
+            <a href="index.html#heroSection" class="directionUp">
+                <img src="img/arrowup_Icon.svg" alt="" class="arrowUpIcon">
+            </a>
+        </section>
+
+        <!-- Skull SocialMedia -->
+
+        <section class="skullSocialMedia">
+            <article class="socialMedia">
+                <img src="img/skull.svg" alt="" class="skullIcon">
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank" class="item"><img src="img/instagram.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank" class="item"><img src="img/youtube.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" class="item"><img src="img/facebook.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank" class="item"><img src="img/twitter.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://co.pinterest.com/" target="_blank" class="item"><img src="img/pinterest.svg" alt="" class="itemSocial"></a></li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Tag GetOff -->
+
+        <section class="tagGetOff">
+            <article class="discount">
+                <label for="cross">
+                    <h2 class="title">Get 25% Off</h2>
+                </label>
+            </article>
+        </section>
+
+        <!-- Best Sellers -->
+
+        <section class="bestSellers ">
+            <h2 class="subtitle">Best sellers</h2>
+            <div class="sectionCard d-flex flex-row">
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic1.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic2.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic15.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic16.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic5.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+            </div>
+            <div class="sectionCard g-1 d-flex flex-row">
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic6.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic22.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic8.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic25.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic18.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+            </div>
+            <div class="sectionCard g-1 d-flex flex-row">
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic11.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic24.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic13.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic14.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+                <article class="cardProducts m-2">
+                    <dic class="article">
+                        <img src="img/pic37.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="img/whishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit.................................$499</p>
+                            <a href="views/store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </dic>
+                </article>
+            </div>
+            <a href="views/store.html" class="ctaStore">See more...</a>
+        </section>
+
+        <!-- Advertising -->
+
+        <section class="advertising mx-0">
+            <article class="advertisingMood">
+                <h2 class="subtitle">Live and feel on the edge</h2>
+                <h2 class="subtitle">Live and feel on the edge</h2>
+                <h2 class="subtitle">Live and feel on the edge</h2>
+            </article>
+        </section>
+
+        <!-- New Arrivals -->
+
+        <section class="newArrivals" id="newArrivals">
+            <h2 class="subtitle">New Arrivals</h2>
+            <div class="sectionCard d-flex flex-direction-row">
+                <article class="cardProducts m-0">
+                    <div class="article1">
+                        <label for="new1" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new1" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic23.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic23.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article2">
+                        <label for="new2" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new2" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic28.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic28.webp" alt="Outfit Image"  id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article3">
+                        <label for="new3" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new3" class="new">
+                        <a href="views/store.html"  class="smallCard">
+                            <img src="img/pic29.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic29.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article4">
+                        <label for="new4" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new4" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic33.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic33.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article5">
+                        <label for="new5" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new5" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic30.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic30.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+            </div>
+            <div class="sectionCard d-flex flex-direction-row">
+                <article class="cardProducts m-0">
+                    <div class="article6">
+                        <label for="new6" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new6" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic20.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic20.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article7">
+                        <label for="new7" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new7" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic17.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic17.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article8">
+                        <label for="new8" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new8" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic36.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic36.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article9">
+                        <label for="new9" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new9" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic35.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic35.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+                <article class="cardProducts m-0">
+                    <div class="article10">
+                        <label for="new10" class="fadeAway">
+                            <img src="img/skull.svg" alt="Skull logo" class="skull">
+                        </label>
+                        <input type="checkbox" id="new10" class="new">
+                        <a href="views/store.html" class="smallCard">
+                            <img src="img/pic34.webp" alt="Outfit Image" class="outFit">
+                            <p class="price">Outfit.................................$499</p>
+                        </a>
+                        <img src="img/pic34.webp" alt="Outfit Image" id="outFit" class="outFit">
+                    </div>
+                </article>
+            </div>
+            <a href="views/store.html" class="ctaStore">See more...</a>
+        </section>
+
+        <!-- Get 25% Off -->
+
+        <section class="getOff" id="getOff">
+            <article class="containerGetOff">
+                <div class="info">
+                    <h2 class="title">Get 25% off</h2>
+                    <div class="paragraph">
+                        <h3 class="subtitle">For purchases over $1000</h3>
+                        <p class="sentence">You get 25% off on one of our
+                        hoddies
+                        </p>
+                    </div>
+                </div>
+                <img src="img/hoddy_White.webp" alt="Hoddy pic" class="hoddy">
+            </article>
+            <input type="checkbox" id="cross">
+            <label for="cross">
+                <p class="ctaSentence">See more in detail...</p>
+            </label>
+            <article class="bannerGetOff">
+                <h2 class="title">Get 25% off</h2>
+                <label for="cross">
+                    <img src="img/close_Cross_White.svg" alt="Cross Icon" class="crossCloseWhite">
+                </label>
+                <div class="slideGetOff">
+                    <div class="hoddy">
+                        <img src="img/hoddy1.webp" alt="Hoddy skull">
+                        <h3>Sold-out</h3>
+                        <p>Hoddy............................$499</p>
+                    </div>
+                    <div class="hoddy">
+                        <img src="img/hoddy2.webp" alt="Hoddy skull">
+                        <h3>Sold-out</h3>
+                        <p>Hoddy............................$499</p>
+                    </div>
+                    <div class="hoddy">
+                        <img src="img/hoddy3.webp" alt="Hoddy skull">
+                        <h3>Sold-out</h3>
+                        <p>Hoddy............................$499</p>
+                    </div>
+                    <div class="hoddy">
+                        <img src="img/hoddy4.webp" alt="Hoddy skull">
+                        <h3>In-stock</h3>
+                        <p>Hoddy............................$499</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Gift Cards -->
+
+        <section class="giftCards" id="giftCards">
+            <h2 class="subtitle">Gift cards</h2>
+            <div class="containerGetOff">
+                <article  id="task" class="containerCards">
+                    <div class="sectionCards">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner px-4">
+                                <div class="carousel-item text-center active card1">
+                                    <img src="img/brand_Black.svg" id="icon" alt="...">
+                                    <h3 class="subtitleGift">Gift Cards $100</h3>
+                                    <div class="socialMedia">
+                                        <img src="img/instagram_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/youtube_black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/facebook_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/twitter_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/pinterest_Black_Icon.svg" alt="" class="itemSocial">
+                                    </div>
+                                    <p class="paragraph">www.breakaLeg.com
+                                    </p>
+                                </div>
+                                <div class="carousel-item text-center card2">
+                                    <img src="img/brand_White.svg" id="icon" alt="...">
+                                    <h3 class="subtitleGift">Gift Cards $200</h3> <div class="socialMedia">
+                                        <img src="img/instagram_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/youtube_black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/facebook_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/twitter_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/pinterest_Black_Icon.svg" alt="" class="itemSocial">
+                                    </div>
+                                    <p class="paragraph">www.breakaLeg.com
+                                    </p>
+                                </div>
+                                <div class="carousel-item text-center card3">
+                                    <img src="img/brand_Black.svg" id="icon" alt="...">
+                                    <h3 class="subtitleGift">Gift Cards $500</h3>
+                                    <div class="socialMedia">
+                                        <img src="img/instagram_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/youtube_black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/facebook_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/twitter_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/pinterest_Black_Icon.svg" alt="" class="itemSocial">
+                                    </div>
+                                    <p class="paragraph">www.breakaLeg.com</p>
+                                </div>
+                                <div class="carousel-item text-center card4">
+                                    <img src="img/brand_Black.svg" id="icon" alt="...">
+                                    <h3 class="subtitleGift">Gift Cards $1000</h3>
+                                    <div class="socialMedia">
+                                        <img src="img/instagram_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/youtube_black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/facebook_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/twitter_Black_Icon.svg" alt="" class="itemSocial">
+                                        <img src="img/pinterest_Black_Icon.svg" alt="" class="itemSocial">
+                                    </div>
+                                    <p class="paragraph">www.breakaLeg.com
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="containerMessage">
+                    <h3 class="subtitleMessage">It’s gettin’ on my nerves!</h3>
+                    <p class="paragraph">Now, you can buy and give away 4 <span class="higthlighter">"gift cards"</span></p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footerContainer">
+        <div class="footer">
+            <section class="socialMedia">
+                <h3 class="contactUs">Contact us..</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank" class="item"><img src="img/instagram.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank" class="item"><img src="img/youtube.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" class="item"><img src="img/facebook.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank" class="item"><img src="img/twitter.svg" alt="" class="itemSocial"></a></li>
+                    <li><a href="https://co.pinterest.com/" target="_blank" class="item"><img src="img/pinterest.svg" alt="" class="itemSocial"></a></li>
+                </ul>
+            </section>
+            <section class="brand">
+                <h3 class="nameLogo">Break a Leg</h3>
+                <img src="img/skull.svg" alt="Skull logo" class="skull">
+            </section>
+            <section class="payments">
+                <h3>Payments</h3>
+                <img class="paymentCards" src="img/payments.webp" alt="Credit cards">
+            </section>
+        </div>
+        <section class="development">
+            <img class="raccoon" src="img/logo_Raccoon.svg" alt="Raccoon brand">
+            <div class="developer">
+                <p>Developed and made with 💖 by Diego Marin </p>
+                <p>© 2023 <span class="raccoon">Raccoon</span>. All rights reserved.</p>
+                <p> Medellin - Colombia</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+
+    <script src="main.js"></script>
+
 </body>
 </html>
