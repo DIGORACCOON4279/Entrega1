@@ -49,7 +49,7 @@ Pero quedan faltando para proximas consignas activar el dark mode, el cart(check
 
 NOTA: Observar el archivo main.js hay dos ejercicios de la consigna el sign in quedo comenatdo pero funciona y el create account funciona en las github pages.</br>
 
- ![color_Github](https://github.com/DIGORACCOON4279/Entrega1/assets/88150970/65187d3e-8a95-46f3-9b4d-9f2981227c33)!(https://digoraccoon4279.github.io/Entrega1/)</br>
+ ![color_Github](https://github.com/DIGORACCOON4279/Entrega1/assets/88150970/65187d3e-8a95-46f3-9b4d-9f2981227c33)![](https://digoraccoon4279.github.io/Entrega1/)</br>
 
 
 ![raccon_Logo3](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/0950de58-a518-42f3-a502-088da15a18d4)
