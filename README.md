@@ -27,10 +27,10 @@ Primero que todo se realizo el mockup en Figma:</br>
 
 👉Links  </br>
 
-💻[Prototipo desktop](https://www.figma.com/proto/gRXoq1ASGPhQZxr65ZgDZQ/Break-a-Leg?page-id=1868%3A9069&type=design&node-id=1868-11638&viewport=4929%2C20517%2C0.31&t=SJTlBD9JZ5jP49Mz-1&scaling=scale-down&starting-point-node-id=1868%3A11638&mode=design)</br>
+💻[Mockup desktop](https://www.figma.com/proto/gRXoq1ASGPhQZxr65ZgDZQ/Break-a-Leg?page-id=1868%3A9069&type=design&node-id=1868-11638&viewport=4929%2C20517%2C0.31&t=SJTlBD9JZ5jP49Mz-1&scaling=scale-down&starting-point-node-id=1868%3A11638&mode=design)</br>
 🚧I´m so sorry📱Cellphone (man at work)</br>
 
-En esta primera entrega aunque no se pide en la consigna se ha realizado la maquetacion HTML y los estilos con CSS:</br>
+En esta primera entrega aunque no se pide en la consigna se ha realizado la maquetacion HTML y los estilos con CSS instalando NodeJS & SASS:</br>
 
 ✔Landing page</br>
 ✖Resta Store</br>
@@ -40,13 +40,15 @@ En esta primera entrega aunque no se pide en la consigna se ha realizado la maqu
 
 En los formularios "Sign in" & "Create Account", se realizo con JS el simulador, para la consigna se utilizaron:</br>
 
-✔Constantes</br>
 ✔Variables</br>
+✔Funciones</br>
 ✔Bucles</br>
-✔Funcion flecha</br>
+✔Condicionales</br>
 
-Pero quedan faltando para proximas consignas activar el dark mode, el cart(checkout & orden de compra) & favoritos. Tambien ajustes en las interfaces y page Error 404, como tambien su adaptacion a pantallas cellphone y tablet</br>
+Pero quedan faltando para proximas consignas activar el dark mode, el cart(checkout & orden de compra) & favoritos. Tambien ajustes en las interfaces Store y page Error 404, como tambien su adaptacion a pantallas cellphone y tablet</br>
 
+NOTA: Observar el archivo main.js hay dos ejercicios de la consigna el sign in quedo comenatdo pero funciona y el create account funciona en las github pages.</br>
 
+ ![Github pages](https://digoraccoon4279.github.io/Entrega1/)</br>
 
 ![raccon_Logo3](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/0950de58-a518-42f3-a502-088da15a18d4)
