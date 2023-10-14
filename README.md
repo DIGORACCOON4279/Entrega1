@@ -47,4 +47,6 @@ En los formularios "Sign in" & "Create Account", se realizo con JS el simulador,
 
 Pero quedan faltando para proximas consignas activar el dark mode, el cart(checkout & orden de compra) & favoritos. Tambien ajustes en las interfaces y page Error 404, como tambien su adaptacion a pantallas cellphone y tablet</br>
 
+
+
 ![raccon_Logo3](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/0950de58-a518-42f3-a502-088da15a18d4)
